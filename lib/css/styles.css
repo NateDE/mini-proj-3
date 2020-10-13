@@ -17,7 +17,8 @@ label {
 }
 
 button {
-	margin-left: 50%;
+  text-align: center;
+  align-self: center;
 }
 
 input {
