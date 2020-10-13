@@ -48,7 +48,6 @@ input {
   align-self: center;
 }
 .header {
-  grid-area: header;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -65,5 +64,5 @@ body{
 }
 .banner-value{
   font-size: 20px;
-  padding-right: 3%;
+  padding-right: 2%;
 }
