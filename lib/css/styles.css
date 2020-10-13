@@ -54,6 +54,9 @@ input {
   justify-content: space-between;
   padding: 0 16px;
   background-color: #1ea6ff;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  border: 2px solid black;
 }
 body{
   align-self: center;
@@ -61,6 +64,4 @@ body{
 }
 .banner-value{
   font-size: 20px;
-  margin-bottom: 10%;
-  margin-top: 10%;
 }
