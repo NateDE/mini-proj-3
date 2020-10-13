@@ -58,3 +58,7 @@ body{
   align-self: center;
   text-align: center; 
 }
+.banner-value{
+  font-size: 20px;
+  margin: 10%;
+}
