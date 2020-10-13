@@ -42,13 +42,13 @@
     <canvas id="myChart" width="400" height="400"></canvas>
     <script>
         var ctx = document.getElementById('myChart').getContext('2d');
-        var name = document.getElementById('patient_name').nodeValue;
+        //var name = document.getElementById('patient_name').nodeValue;
         var myChart = new Chart(ctx, {
             type: 'bar',
             data: {
                 labels: ['SBP', 'DBP', 'LDL', 'HDL', '# of Meds'],
                 datasets: [{
-                    label: name,
+                    label: 'Patient Name',
                     data: [12, 19, 3, 5, 2],
                     backgroundColor: [
                         'rgba(255, 99, 132, 0.2)',
