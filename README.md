@@ -8,3 +8,5 @@ Website:
 https://natede.github.io/mini-proj-3/
 
 Launch the app and select a patient to see desired results.
+
+(In case graph data isn't displaying, adjust the screen size to fix this minor bug)
