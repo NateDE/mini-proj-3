@@ -43,6 +43,11 @@
     
     <canvas id="myChart" width="400" height="400"></canvas>
     <script>
+
+      chartIt();
+
+      async function chartIt() {
+        await gettingData();
         var ctx = document.getElementById('myChart').getContext('2d');
         console.log(dataRay)
         var myChart = new Chart(ctx, {
@@ -78,7 +83,8 @@
                 }
             }
         });
-        </script>
+      }
+    </script>
         
 
   </div>
