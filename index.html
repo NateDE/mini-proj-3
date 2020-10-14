@@ -47,7 +47,7 @@
       chartIt();
 
       async function chartIt() {
-        await gettingData();
+        await done();
         var ctx = document.getElementById('myChart').getContext('2d');
         console.log(dataRay)
         var myChart = new Chart(ctx, {
